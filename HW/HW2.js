@@ -104,6 +104,7 @@
         //     document.write('<div>Third quarter</div>')}
         // else if (time<=59 && time>=46){
         //     document.write('<div>Fourth quarter</div>')}
+// else {consol.error('wrong number')}
 
 
 // - Скласти розклад на тиждень за домопоги switch.

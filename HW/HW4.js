@@ -59,4 +59,30 @@
 // }
 //  ul()
 
+// - створити функцію swap(arr,index1,index2). Функція
+// міняє місцями заняення у відаовідних індексах
+// // Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
 
+// function swap(arr,index1,index2) {
+//     let temp=arr[index1] ;
+//     arr[index1] = arr[index2];
+//     arr[index2] = temp;
+//     return arr
+// }
+//
+// console.log(swap([11,22,33,44],0,1))
+//
+// Напишіть функцію reverseArray(arr), яка приймає масив arr і
+// повертає новий масив, в якому елементи розташовані в зворотньому порядку.
+//     Наприклад, виклик reverseArray([1, 2, 3, 4])
+// повинен повернути масив [4, 3, 2, 1].
+
+function reverseArray(arr) {
+    const reversedArr = [];
+    for (let i = arr.length - 1; i >= 0; i--) {
+        reversedArr[arr.length - 1 - i] = arr[i];
+    }
+    return reversedArr;
+}
+
+console.log(reverseArray([1,3,15,25]))
