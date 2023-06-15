@@ -1,0 +1,15 @@
+.post-details {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.comments {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comment {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+}
